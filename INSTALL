@@ -1,0 +1,4 @@
+Building Bitdras
+See doc/readme-qt.rst for instructions on building Bitdras QT.
+
+See doc/build-*.txt for instructions on building bitdrasd.
