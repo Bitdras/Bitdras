@@ -11,7 +11,7 @@
 const std::string CLIENT_NAME("Bitdras");
 
 // Client version number
-#define CLIENT_VERSION_SUFFIX   "Beta-1"
+#define CLIENT_VERSION_SUFFIX   "Beta-2"
 
 
 // The following part of the code determines the CLIENT_BUILD variable.

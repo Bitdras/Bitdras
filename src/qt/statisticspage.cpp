@@ -51,59 +51,59 @@ void StatisticsPage::updateStatistics()
     QString stakemin = QString::number(nMinWeight);
     QString stakemax = QString::number(nNetworkWeight);
     QString phase = "";
-    if (pindexBest->nHeight < 12500)
+    if (pindexBest->nHeight < 10000)
     {
         phase = "POW ";
     }
-    else if (pindexBest->nHeight < 25000)
+    else if (pindexBest->nHeight < 100000)
     {
         phase = "POW & POS";
     }
-    else if (pindexBest->nHeight > 25000)
+    else if (pindexBest->nHeight > 100001)
     {
         phase = "POS";
     }
 
     QString subsidy = "";
-	if(pindexBest->nHeight < 2500)
+	if(pindexBest->nHeight < 10000)
     {
-		subsidy = "10 BDS";
+		subsidy = "1 BDS";
     }
-	else if(pindexBest->nHeight < 5000)
+	else if(pindexBest->nHeight < 20000)
     {
-		subsidy = "20 BDS";
+		subsidy = "2 BDS";
     }
-		else if(pindexBest->nHeight < 7500)
+		else if(pindexBest->nHeight < 30000)
     {
-		subsidy = "30 BDS";
+		subsidy = "3 BDS";
     }
-		else if(pindexBest->nHeight < 10000)
+		else if(pindexBest->nHeight < 40000)
     {
-		subsidy = "40 BDS";
+		subsidy = "4 BDS";
     }
-		else if(pindexBest->nHeight < 12500)
+		else if(pindexBest->nHeight < 50000)
     {
-		subsidy = "50 BDS";
+		subsidy = "5 BDS";
     }
-		else if(pindexBest->nHeight < 15000)
+		else if(pindexBest->nHeight < 60000)
     {
-		subsidy = "60 BDS";
+		subsidy = "6 BDS";
     }
-		else if(pindexBest->nHeight < 17500)
+		else if(pindexBest->nHeight < 70000)
     {
-		subsidy = "70 BDS";
+		subsidy = "7 BDS";
     }
-		else if(pindexBest->nHeight < 20000)
+		else if(pindexBest->nHeight < 80000)
     {
-		subsidy = "80 BDS";
+		subsidy = "8 BDS";
     }
-        else if(pindexBest->nHeight < 22500)
+        else if(pindexBest->nHeight < 90000)
     {
-        subsidy = "90 BDS";
+        subsidy = "9 BDS";
     }
-        else if(pindexBest->nHeight < 25000)
+        else if(pindexBest->nHeight < 100000)
     {
-        subsidy = "100 BDS";
+        subsidy = "10 BDS";
     }
     QString hardness = QString::number(pHardness, 'f', 6);
     QString hardness2 = QString::number(pHardness2, 'f', 6);
