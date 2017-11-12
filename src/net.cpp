@@ -1141,6 +1141,10 @@ void MapPort()
 static const char *strDNSSeed[][2] = {
     {"1", "52.10.192.151"}, //bitdras node
     {"2", "172.31.16.211"}, //bitdras node
+    {"3", "51.15.211.40"}, //bitdras node
+    {"4", "144.139.172.186"}, //bitdras node
+    {"5", "66.154.105.142"}, //bitdras node
+    {"6", "52.88.118.126"}, //bitdras node
 };
 
 void ThreadDNSAddressSeed(void* parg)
