@@ -17,9 +17,12 @@ class SendCoinsDialog;
 class SignVerifyMessageDialog;
 class Notificator;
 class RPCConsole;
+class AboutDialog;
+class OptionsDialog;
 
 QT_BEGIN_NAMESPACE
 class QLabel;
+class QDialog;
 class QLineEdit;
 class QTableView;
 class QAbstractItemModel;
@@ -107,6 +110,8 @@ private:
     Notificator *notificator;
     TransactionView *transactionView;
     RPCConsole *rpcConsole;
+    AboutDialog *aboutDialog;
+    OptionsDialog *optionsDialog;
 
     QMovie *syncIconMovie;
 
